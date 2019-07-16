@@ -305,5 +305,64 @@ body
 }
 .mid-class,.main-two-w3ls
 {
-    
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+h1.error {
+	text-align: center;
+	color: #333;
+	text-transform: uppercase;
+}
+.img-right-side {
+	text-align: center;
+	flex-basis: 65%;
+	-webkit-flex-basis: 65%;
+	box-sizing: border-box;
+}
+.txt-left-side {
+	flex-basis: 35%;
+	-webkit-flex-basis: 35%;
+	box-sizing: border-box;
+	text-align: center;
+	background: #fff;
+	box-shadow: 0px 0px 10px 1px #cccccc;
+}
+.img-right-side h3, .txt-left-side h2 {
+	text-transform: uppercase;
+	color: #333;
+	letter-spacing: 0px;
+}
+.img-right-side p {
+	font-size: 13.5px;
+	color: #908c8c;
+	letter-spacing: 0px;
+	line-height: 24px;
+	margin-bottom: 48px;
+}
+.form-left-to-w3l {
+	display: flex;
+	display: -webkit-flex;
+	border: none;
+	border-bottom: 1px solid #a5a2a2;
+	transition: 0.5 all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.form-left-to-w3l input[type="text"],.form-left-to-w3l input[type="email"],.form-left-to-w3l input[type="password"] {
+	-webkit-flex-basis:90%;
+	flex-basis: 90%;
+	width: 100%;
+	color: #000;
+	border: none;
+	border-left: 1px solid #a5a2a2;
+	outline: none;
+	-webkit-appearance: none;
+	background: transparent;
+	transition: 0.5s all;
 }
