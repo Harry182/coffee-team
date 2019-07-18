@@ -450,3 +450,26 @@ input.checked {
 	letter-spacing: 0px;
 	font-weight: 800;
 }
+.w3layouts_more-buttn a {
+	font-size: 13px;
+	color: #e80000;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 10px;
+	text-transform: capitalize;
+	display:inline-block;
+	letter-spacing: 0px;
+	outline: none;
+}
+.footer-copyrigh {
+	text-align: center;
+}
+.footer-copyrigh p {
+	color: #333;
+}
+.footer-copyrigh p a {
+	color: rgb(90, 69, 9);
+	font-size: 14px;
+	font-weight: 800;
+}
+
