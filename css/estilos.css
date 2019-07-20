@@ -591,3 +591,30 @@ input.checked {
 	}
 }
 
+@media(max-width:1280px){
+	h1.error {
+		padding-top: 48px;
+		margin-bottom: 38px;
+		font-size: 43px;
+	}
+	.img-right-side, .txt-left-side {
+		padding: 2.5em 3em 2.3em;
+	}
+	.container-two-grids {
+		width: 88%;
+	}
+	.form-left-to-w3l span {
+		font-size: 18px;
+	}
+	.form-left-to-w3l input[type="text"],
+	.form-left-to-w3l input[type="email"],
+	.form-left-to-w3l input[type="password"]{
+		padding-left: 16px;
+	}
+	button[type="submit"]{
+		margin: 47px 0px;
+	}
+	.img-right-side p {
+		margin-bottom: 39px;
+	}
+}
