@@ -558,3 +558,24 @@ input.checked {
 	}
 }
 
+@media(max-width:1440px){
+	h1.error {
+		padding-top: 51px;
+		margin-bottom: 41px;	
+		font-size: 45px;
+	}
+	.img-right-side h3,.txt-left-side h2 {
+		font-size: 21px;		
+	}
+	.img-right-side, .txt-left-side {
+		padding: 3em  3.5em 2.3em;
+	}
+	.container-two-grids {
+		width: 85%;	
+	}
+	button[type="submit"]{
+		padding: 17px 20px; 	
+	}
+	
+}
+
