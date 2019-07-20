@@ -575,7 +575,19 @@ input.checked {
 	}
 	button[type="submit"]{
 		padding: 17px 20px; 	
+	}	
+}
+
+@media(max-width:1366px){
+	.form-left-to-w3l {
+		margin: 0px 0px 30px;
+		padding-bottom: 13px;
 	}
-	
+	.img-right-side h3, .txt-left-side h2 {
+		margin-bottom: 29px;
+	}
+	button[type="submit"]{
+		margin: 50px 0px;
+	}
 }
 
