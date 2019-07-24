@@ -641,3 +641,20 @@ input.checked {
 		margin-bottom: 27px;
 	}
 }
+@media(max-width:1050px){
+	.img-right-side h3, .txt-left-side h2 {
+		font-size: 20px;
+	}
+	.img-right-side p {
+		margin-bottom: 33px;
+	}
+	.remenber-me, a.for{
+		font-size: 11px;
+	}
+	.w3layouts_more-buttn h3 {
+		font-size: 12px;
+	}
+	.w3layouts_more-buttn a {
+		font-size: 12px;
+	}
+}
