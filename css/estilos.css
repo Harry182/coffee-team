@@ -618,3 +618,26 @@ input.checked {
 		margin-bottom: 39px;
 	}
 }
+@media(max-width:1080px){
+	.footer-copyrigh p {
+		letter-spacing: 2px;
+	}
+	.img-right-side, .txt-left-side {
+		padding: 2.5em 2.5em 2em;
+	}
+	.form-left-to-w3l {
+		margin: 0px 0px 25px;
+	}
+	.container-two-grids {
+		width: 92%;
+	}
+	.footer-copyrigh {
+		padding: 2.5em 0em 4em;
+	}
+	h1.error {
+		font-size: 41px;
+	}
+	.img-right-side h3,.txt-left-side h2 {
+		margin-bottom: 27px;
+	}
+}
